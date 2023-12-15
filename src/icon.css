@@ -1,0 +1,168 @@
+[class^='icon-'],
+[class*=' icon-'] {
+  display: inline-block;
+  font-family: 'nasa-font';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pe-icon-7-stroke-down:before {
+  content: '';
+  font-family: 'pe-icon-7-stroke';
+  font-size: 120%;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  cursor: pointer;
+  color: rgb(170, 170, 170);
+}
+
+.pe-7s-news-paper:before {
+  content: '\e62e';
+}
+
+.icon-nasa-orange:before {
+  content: '\25';
+}
+
+.pe-icon-7-stroke-logout:before {
+  font-family: 'Pe-icon-7-stroke';
+  content: '\e67a';
+  font-size: 110%;
+  position: relative;
+  top: 2px;
+  color: inherit;
+  font-weight: 400;
+  line-height: 1;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.close::after,
+.close::before {
+  content: '';
+  width: 16px;
+  height: 0;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  border-top: 1px solid #333;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+}
+
+.close-open::after,
+.close-open::before {
+  opacity: 1;
+}
+.close-open::after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close-open::before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.close-disable::after,
+.close-disable::before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity: 0;
+}
+
+.vertical-menu::before {
+  content: '\49';
+  font-family: 'nasa-font';
+  margin-right: 10px;
+  padding-left: 5px;
+  font-size: 100%;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  line-height: inherit;
+}
+
+.icon-fa-angle-right::before {
+  content: '\f105';
+}
+
+.icon-orange::before {
+  content: '\25';
+}
+
+.icon-fruit::before {
+  content: '\37';
+}
+
+.icon-healthy-food::before {
+  content: '\2b';
+}
+
+.icon-diet::before {
+  content: '\24';
+}
+
+.icon-parsley::before {
+  content: '\26';
+}
+
+.icon-fast-food::before {
+  content: '\2e';
+}
+
+.icon-meat::before {
+  content: '\2c';
+}
+
+.icon-fish::before {
+  content: '\2d';
+}
+
+.icon-onion::before {
+  content: '\27';
+}
+
+.icon-raspberry::before {
+  content: '\2a';
+}
+
+.icon-banana::before {
+  content: '\28';
+}
+
+.icon-potatoes::before {
+  content: '\29';
+}
+
+.pe-7s-angle-down::before {
+  content: "\e688";
+}
+
+.icon-headphone::before {
+  content: "\63";
+}

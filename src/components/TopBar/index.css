@@ -1,0 +1,5 @@
+.language-account{
+  display: grid;
+    grid-auto-flow: column;
+    width: max-content;
+}
